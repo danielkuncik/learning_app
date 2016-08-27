@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LearningApp</title>
+    <title><%= yield(:title)%> | Learning App</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -10,5 +10,6 @@
 
   <body>
     <%= yield %>
+    <p>I'm in California dreaming about who we used to be.</p>
   </body>
 </html>
