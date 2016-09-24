@@ -7,3 +7,9 @@ one:
 two:
   name: MyString
   section: MyString
+
+
+jonny:
+  name: Jonny Example
+  section: green
+  password_digest: <%= User.digest('password') %>
