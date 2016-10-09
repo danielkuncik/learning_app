@@ -542,3 +542,76 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/danielku
 
 !ENTRY org.eclipse.core.net 1 0 2016-10-09 18:37:50.960
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-10-09 19:04:27.294
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:224)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-10-09 19:04:27.296
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:224)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-10-09 19:04:27.305
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:224)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-10-09 19:04:27.309
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:224)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-10-09 19:04:27.404
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:224)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-10-09 19:04:27.850
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:224)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-10-09 19:04:27.876
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:224)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2016-10-09 19:48:08.848 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/danielkuncik/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/danielkuncik/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-09 19:48:15.986
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
