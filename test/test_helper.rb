@@ -24,4 +24,9 @@ class ActiveSupport::TestCase
     !session[:user_id].nil?
   end
   
+  def log_in_as(user, password: 'password')
+    post login_path, params: { session: { username: user.name,
+                                          password: password }}
+  end
+                                        
 end

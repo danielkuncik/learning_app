@@ -2,7 +2,7 @@ class User < ApplicationRecord
   validates(:name, presence: true, length: {maximum: 50}, uniqueness: true)
   validates(:section, presence: true)
   has_secure_password
-  validates(:password, presence: true, length: {minimum: 6})
+  validates(:password, presence: true, length: {minimum: 6}, allow_nil: true)
 
   # returns the hast digest of a given string
   def User.digest(string)

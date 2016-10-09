@@ -13,3 +13,8 @@ jonny:
   name: Jonny Example
   section: green
   password_digest: <%= User.digest('password') %>
+
+archer:
+  name: Sterling Archer
+  section: blue
+  password_digest: <%= User.digest('password') %>
