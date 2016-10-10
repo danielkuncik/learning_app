@@ -1,0 +1,16 @@
+<% provide(:title, 'Create New Quiz') %>
+<h1>Create Quiz</h1>
+
+<div class = "row">
+	<div class = "col-md-6 col-md-offset-3">
+		<%= form_for(@quize) do |f| %>
+			<%= render 'shared/error_messages_quiz' %>
+		
+			<%= f.label :name %>
+			<%= f.text_field :name, class: 'form-control' %>
+			
+			<%= f.submit "Create New Quiz", class: "btn btn-primary" %>
+		<% end %>
+	</div>
+
+</div>
