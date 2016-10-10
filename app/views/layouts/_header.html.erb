@@ -20,6 +20,17 @@
   							</li>
   						</ul>
   					</li>
+  					<% if current_user.admin? %>
+  					<li class = "dropdown">
+  						<a href = '#' class = 'dropdown-toggle' data-toggle='dropdown'>
+  							Quizes <b class = "caret"></b>
+  						</a>
+  						<ul class = "dropdown-menu">
+  							<li><%= link_to "New", new_quize_path %></li>
+  							<li><%= link_to "View All", quizes_path %></li>
+  						</ul>
+  					</li>
+  					<% end %>
   				<% else %>
   					<li><%= link_to "Log in", login_path %></li>
   				<% end %>

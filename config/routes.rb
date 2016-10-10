@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'quizes/new'
+
   get 'sessions/new'
 
   get 'users/new'
@@ -14,5 +16,6 @@ Rails.application.routes.draw do
   delete '/logout', to: 'sessions#destroy'
   
   resources :users
+  resources :quizes
   
 end
